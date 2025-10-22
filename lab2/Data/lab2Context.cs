@@ -17,5 +17,6 @@ namespace lab2.Data
         public DbSet<lab2.models.Book> Book { get; set; } = default!;
         public DbSet<lab2.models.Publisher> Publisher { get; set; } = default!;
         public DbSet<lab2.models.Author> Author { get; set; } = default!;
+        public DbSet<lab2.models.Category> Category { get; set; } = default!;
     }
 }
