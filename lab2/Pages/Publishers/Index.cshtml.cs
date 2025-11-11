@@ -20,7 +20,7 @@ namespace lab2.Pages.Publishers
             _context = context;
         }
 
-        public IList<Publisher> Publisher { get;set; } = default!;
+        public IList<Publisher> Publisher { get; set; } = default!;
 
         public PublisherIndexData PublisherData { get; set; }
         public int PublisherID { get; set; }
@@ -43,4 +43,5 @@ namespace lab2.Pages.Publishers
                 PublisherData.Books = publisher.Books;
             }
         }
+    }
 }
