@@ -65,15 +65,15 @@ namespace lab2.Pages.Books
             {
                 case "title_desc":
                     BookD.Books = BookD.Books.OrderByDescending(s =>
-s.Title);
+                s.Title);
                     break;
                 case "author_desc":
                     BookD.Books = BookD.Books.OrderByDescending(s =>
-s.Author.FullName);
+                s.Author.FullName);
                     break;
                 case "author":
                     BookD.Books = BookD.Books.OrderBy(s =>
-          s.Author.FullName);
+                s.Author.FullName);
                     break;
                 default:
                     BookD.Books = BookD.Books.OrderBy(s => s.Title);
